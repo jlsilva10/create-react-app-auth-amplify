@@ -9,9 +9,11 @@ class App extends Component {
   render() {
     return (
       <div>
-      <div className="App">
+      <div>
         <h1>2 Truths and a Lie</h1>
         <h2>Icebreaker Game</h2>
+      </div>
+      <div className="Selection">
         <h1>Likes/Dislikes</h1>
         <form action="/action_page.php">
   <p>Your guess:</p>
