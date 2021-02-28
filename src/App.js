@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        <p className="p1"><span className="Apple-converted-space">    </span>&lt;&gt;HOME&lt;/a&gt;</p>
+          <p>HOME</p>
         </header>
       </div>
     );
