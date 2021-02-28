@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from './logo.svg';
 import './App.css';
 import { withAuthenticator } from 'aws-amplify-react'
 import Amplify, { Auth } from 'aws-amplify';
@@ -10,7 +11,18 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p>HOME</p>
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            O Jogo da Nance
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
         </header>
       </div>
     );
