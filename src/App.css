@@ -4,24 +4,24 @@
 
 .Title {
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
   color: rgb(255, 255, 255);
 }
 .Subtitle {
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
   color: rgb(255, 255, 255);
 }
 
 .TabTitle {
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
   color: rgb(255, 255, 255);
 }
 
 .Selection {
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
   padding-top: 30px;
 }
 
@@ -33,7 +33,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 200vh;
   display: flex;
   flex-direction: column;
   align-items: center;
