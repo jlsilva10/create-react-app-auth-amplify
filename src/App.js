@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div>
-      <div>
+      <div className="Title">
         <h1>2 Truths and a Lie</h1>
         <h2>Icebreaker Game</h2>
       </div>
